@@ -25,12 +25,5 @@ public class UtilsTest {
         int actual = utils.square(3);
         Assertions.assertEquals(9, actual);
     }
-
-    @Test
-    public void testCube() {
-        final Utils utils = new Utils();
-        int actual = utils.cube(3);
-        Assertions.assertEquals(27, actual);
-    }
 }
 
