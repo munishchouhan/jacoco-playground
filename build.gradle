@@ -1,5 +1,5 @@
 plugins {
-    id 'java'
+    id 'java-library'
     id 'jacoco'
     id 'org.jetbrains.kotlin.jvm' version '1.9.0'
 }
@@ -19,6 +19,10 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+
+jacoco {
+    toolVersion '0.8.10'
 }
 
 // Code coverage report is always generated after tests run
